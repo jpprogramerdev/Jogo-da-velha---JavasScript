@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+label{
+  font-family: 'Roboto', sans-serif;
+}
+
+input[id='player1']{
+  margin-right: 2rem;
+}
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 2rem;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+header button{
+  text-align: center;
+  margin: .5rem;
+  width: 20rem;
+  height: 2rem;
+  background-color: var(--btn-color);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+header button:hover{
+  transition: .5s;
+  filter: brightness(0.8);
+}
+
+button.playerGame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:root{
+  --btn-color:rgb(54, 54, 59);
+}
+  
+#keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1rem;
+  margin: 2rem 0;
+  }
+
+button.areaBtn {
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: .60rem;
+  transition: .15s;
+  color: white;
+  }
+
+.cursor-pointer{
+  cursor: pointer;
+}
+#keys button.areaBtn {
+  font-size: 1.5rem;
+  width: 175px;
+  height: 175px;
+  }
+
+#keys button.areaBtn:hover {
+  filter: brightness(0.8);
+}
+
+.flex {
+  display: flex;
+}
+  
+.align-center {
+  align-items: center;
+  }
+  
+.justify-between {
+  justify-content: space-between;
+}
+#keys button.win {
+    background-color:  #25a340;
+    font-size: 1.5rem;
+    width: 175px;
+    height: 175px;
+    border: none;
+    border-radius: .60rem;
+    transition: .15s;
+    color: white;
+}
